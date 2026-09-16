@@ -97,5 +97,50 @@
             <td>$400</td>
         </tr>
     </table>
+    <hr>
+
+    <h2>Code Example</h2>
+
+    <p>
+        The following code is a ListNode class used to create nodes
+        for a singly linked list.
+    </p>
+
+    <pre>
+    public class ListNode
+    {
+        private Object myData;
+        private ListNode myNext;
+
+        public ListNode()
+        {
+            this(null, null);
+        }
+
+        public ListNode(Object data, ListNode next)
+        {
+            myData = data;
+            myNext = next;
+        }
+
+        public Object getData()
+        {
+            return myData;
+        }
+
+        public ListNode getNext()
+        {
+            return myNext;
+        }
+    }
+    </pre>
+
+    <p>
+        Source:
+        <a href="https://www.cs.utexas.edu/~scottm/cs307/javacode/codeSamples/ListNode.java">
+            ListNode Java Source
+        </a>
+    </p>
+
 </body>
 </html>
